@@ -14,9 +14,9 @@ window.APP_CONFIG = {
   license: 'Free & Open Music Experience',
   
   // Download URLs
-  downloadUrl: 'apk/Melodyx.apk',
-  fallbackDownloadUrl: 'https://melodyx-zday.onrender.com/api/updates/download',
-  githubUrl: 'https://github.com',
+  downloadUrl: './apk/Melodyx.apk',
+  fallbackDownloadUrl: 'https://github.com/karthikeya22-2/download-melodyx/raw/main/apk/Melodyx.apk',
+  githubUrl: 'https://github.com/karthikeya22-2/download-melodyx',
   webAppStatus: 'Coming Soon',
 
   // What's New in v2.1.0
