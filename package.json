@@ -1,0 +1,15 @@
+{
+  "name": "melodyx-download",
+  "version": "1.0.0",
+  "description": "Melodyx - Official Android Music App Website",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
