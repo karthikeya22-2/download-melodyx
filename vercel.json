@@ -17,24 +17,14 @@
       "permanent": false
     },
     {
+      "source": "/download",
+      "destination": "/#download",
+      "permanent": false
+    },
+    {
       "source": "/download.html",
-      "destination": "/download",
-      "permanent": true
-    },
-    {
-      "source": "/features.html",
-      "destination": "/features",
-      "permanent": true
-    },
-    {
-      "source": "/music.html",
-      "destination": "/music",
-      "permanent": true
-    },
-    {
-      "source": "/about.html",
-      "destination": "/about",
-      "permanent": true
+      "destination": "/#download",
+      "permanent": false
     }
   ],
   "headers": [
