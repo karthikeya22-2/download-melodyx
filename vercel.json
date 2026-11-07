@@ -1,13 +1,5 @@
 {
   "version": 2,
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    { "source": "/download", "destination": "/download.html" },
-    { "source": "/features", "destination": "/features.html" },
-    { "source": "/music", "destination": "/music.html" },
-    { "source": "/about", "destination": "/about.html" }
-  ],
   "redirects": [
     {
       "source": "/apk/Melodyx.apk",
@@ -23,6 +15,26 @@
       "source": "/download/apk",
       "destination": "https://github.com/karthikeya22-2/download-melodyx/raw/main/apk/Melodyx.apk",
       "permanent": false
+    },
+    {
+      "source": "/download.html",
+      "destination": "/download",
+      "permanent": true
+    },
+    {
+      "source": "/features.html",
+      "destination": "/features",
+      "permanent": true
+    },
+    {
+      "source": "/music.html",
+      "destination": "/music",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
     }
   ],
   "headers": [
